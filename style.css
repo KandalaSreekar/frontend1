@@ -1,0 +1,84 @@
+body {
+    background-image: url("images/pattern-background-desktop.svg"); 
+    background-repeat: no-repeat;
+    background-attachment: content;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100% calc(100vh - 50%);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 1px 1px 5px grey;
+    max-width: 25%;
+    margin-top: 5%;
+}
+#child1 {
+    width: 100%;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+
+.child2 {
+    margin-top: 5%;
+}
+.child2 h2 {
+    margin-left: 20%;
+    margin-right: 15%;
+}
+.child2 p {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.plan-details {
+    margin-left: 5%;
+    margin-top: 10%;
+    background-color: #f8f9fe;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+.plan-details img{
+    margin:auto;
+    padding: 1rem;
+}
+.plan-details p {
+    margin: auto auto auto 0%;
+    margin-left: -30px;
+}
+.plan-details a {
+    margin:auto;
+}
+.proceed-to-payment {
+    margin-left: 15%;
+    margin-top: 5%;
+    align-items: center;
+    text-align : center;
+    color: white;
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: #382ae1;
+    border-radius: 0.75rem;
+}
+.proceed-to-payment2 {
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+    text-align : center;
+    color: #768099;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 15rem;
+    background-color: white;
+    border: none;
+}
+#btext {
+    text-decoration: none;
+}
